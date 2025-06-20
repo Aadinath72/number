@@ -1,0 +1,21 @@
+<html>
+    <style>
+        html{
+            color: chartreuse;
+        }
+        body{
+            background-color: rgb(252, 3, 3);
+            height: 60px;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+    <body>
+        <h1>Gues LUCKY Number</h1>
+        <h3>Your LUCKY Number</h3>
+        <p id="LUCKY"></p>
+    </body>
+    <script>
+        document.getElementById("LUCKY").innerHTML=Math.floor(Math.random()*101);
+    </script>
+</html>
